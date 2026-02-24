@@ -1,0 +1,397 @@
+
+body{
+
+    background: #1fd3f2;
+    background: radial-gradient(circle, rgba(31, 211, 242, 1) 0%, rgba(14, 154, 235, 1) 69%, rgba(105, 122, 255, 1) 100%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Betania+Patmos&display=swap');
+
+h1{
+    font-family: "Betania Patmos", cursive;
+    font-size: 100%;
+    font-weight: 900px;
+}
+
+header{
+    display: flex;
+    border-radius: 35px;
+    border: .5rem solid rgb(247, 246, 246);
+    background: #3740b2;
+    max-width: 100%;
+}
+
+h1{
+    margin: 30px 0px 30px 100px;
+    padding: 0px 400px 0px 0px;
+    font-size: 300%;
+}
+
+nav ul{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin: 55px 0px 0px 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.parent{
+    color: rgb(3, 252, 3);
+}
+
+.child{
+    color: rgb(248, 5, 5);
+}
+
+ul a:hover{
+    color: aliceblue;
+}
+h2{
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.subintro {
+    align-content: space-around;
+    text-align: justify;
+    margin: 0px 0px 0px 50px;
+    font-size: large;
+}
+ 
+.image{
+    border-radius: 500px;
+    max-width: auto;
+    max-height: 170px;
+    margin: 0px 100px 0px 150px;
+    border: solid rgb(0, 0, 0);
+    
+}
+
+.about{
+    font-size: large;
+    text-align: center;
+}
+
+.skill{
+    text-align: center;
+}
+
+.aboutme{
+    margin: 30px 50px;
+}
+
+.list{
+    margin: 5px 50px;
+    list-style: none;
+    border: solid #070808;
+    display: grid;
+    font-weight: bold;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.about1{
+    font-size: xx-large;
+    text-align: center;
+}
+.pro{
+    margin: 0px 50px;
+}
+
+.contact{
+    margin: 20px 50px;
+    padding:20px 25px;
+    border: 5px solid #040724;
+    border-radius: 10px;
+}
+
+footer{
+    text-align: center;
+}
+
+.images{
+    max-height: 150px;
+    max-width: auto;
+}
+
+
+/* mobile devices  */
+
+@media all and (max-width: 768px) {
+    h1{
+        margin: 15px 0px 15px 50px;
+        padding: 0px 50px 0px 0px;
+        font-size: 25px;
+        }   
+}
+
+@media all and (max-width: 768px) {
+    nav ul{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin: 25px 0px 0px 100px;
+    text-decoration: none;
+    list-style: none;
+    font-size: small;
+    }
+}
+
+@media all and (max-width: 768px) {
+    h2{
+    text-align: center;
+    font-size: large;
+    }
+}
+
+@media all and (max-width: 768px) {
+.subintro {
+    align-content: space-around;
+    text-align: justify;
+    margin: 0px 50px 0px 50px;
+    font-size: small;
+    }
+}
+@media all and (max-width: 768px) {
+.intro{
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    }
+}
+@media all and (max-width: 768px) {
+    .firstimg{
+        max-width: 100%;
+        max-height: auto;
+        margin: 0px 20px 0px 0px;
+        padding: 0px 0px 0px 0px;
+}
+}
+
+@media all and (max-width: 768px) {
+    .image{
+        max-width: 100%;
+        max-height: 400px;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 100px 0px 0px;
+        border-radius: 500px;
+        
+    }
+}
+@media all and (max-width: 768px) {
+    .about{
+        font-size: small;
+        text-align: center;
+}
+}
+
+@media all and (max-width: 768px) {
+    .aboutme{
+        margin: 15px 50px;
+        font-size: small;
+}
+}
+
+@media all and (max-width: 768px) {
+    .skill{
+        font-size: small;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .list{
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 768px) {
+
+}
+@media all and (max-width: 768px) {
+    footer{
+        font-size: small;
+    }
+}
+@media all and (max-width: 768px) {
+    .about1{
+    font-size: large;
+    text-align: center;
+    }
+}
+@media all and (max-width: 768px) {
+    .prohead{
+        font-size: large;
+
+    }
+}
+@media all and (max-width: 768px) {
+    .propara{
+        font-size: small;
+    }
+}
+@media all and (max-width: 768px) {
+    .contact{
+        margin: 10px 25px;
+        padding:20px 12px;
+        border: 2px solid #04040d;
+        border-radius: 0px;
+        font-size: small;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .continfo{
+        font-size: smaller;
+    }
+}
+
+/* mobile devices end */
+
+/* tab devices start */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    header{
+    display: flex;
+    border-radius: 35px;
+    border: .35rem solid rgb(247, 246, 246);
+    background: #3740b2;
+    max-width: 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    h1{
+        margin: 30px 0px 30px 100px;
+        padding: 0px 100px 0px 0px;
+        font-size: 250%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    nav ul{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin: 40px 0px 0px 50px;
+    text-decoration: none;
+    list-style: none;
+    font-size: medium;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    h2{
+    text-align: center;
+    font-size: x-large;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .subintro {
+    align-content: space-around;
+    text-align: justify;
+    margin: 0px 0px 0px 50px;
+    padding: 0px 0px 0px 0px;
+    font-size: medium;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+.intro{
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .firstimg{
+        max-width: 100%;
+        max-height: auto;
+        margin: 0px 20px 0px 0px;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .about{
+        font-size: medium;
+        text-align: center;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .aboutme{
+        margin: 15px 50px;
+        font-size: medium;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .skill{
+        font-size: medium;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .list{
+        font-size: medium;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .foot{
+    text-align: center;
+    font-size: smaller;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .about1{
+    font-size: large;
+    text-align: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .prohead{
+        font-size: large;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .propara{
+        font-size: medium;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .contact{
+        margin: 20px 35px;
+        padding:0px 25px 20px 0px;
+        border: 2px solid #04040d;
+        border-radius: 10px;
+        font-size: small;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .continfo{
+        font-size: small;
+    }
+}
+
+/* tab end */
